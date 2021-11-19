@@ -42,17 +42,12 @@ font-family: 'Poppins', sans-serif;
     font-family: var(--font-poppins);
     line-height: 21px;
     margin: 10px 0 0 12px;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
 }
 
 .info__container{
     display: flex;
-    align-items: center;
-}
-
-span{
-    display: inline;
-    transform: rotateZ(90deg);
+    align-items: flex-start;
 }
 
 img{
@@ -60,12 +55,39 @@ img{
     height: 209px;
 }
 
-.bill-img{
+.position-bill{
+    font-size: .625rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    display: inline;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 90px;
+}
+
+.bill-img, .shae-img, .griff-img{
     margin-left: 19px;
     padding-top: 52px;
 }
 
-.billl{
+.name{
     grid-column-start: 1;
-    
+    font-size: .875rem;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+.div-saba{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 1rem;
+}
+
+/*footer*/
+.footer{
+    margin-top: 4rem;
 }
