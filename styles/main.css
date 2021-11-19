@@ -64,3 +64,8 @@ img{
     margin-left: 19px;
     padding-top: 52px;
 }
+
+.billl{
+    grid-column-start: 1;
+    
+}
