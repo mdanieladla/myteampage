@@ -200,11 +200,6 @@ img{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* .info__container{
-    display: flex;
-    align-items: flex-start;
-} */
-
 img{
     width: 238px;
     height: 341px;
@@ -218,7 +213,7 @@ img{
     font-size: .75rem;
     transform: rotateZ(90deg);
     position: relative;
-    right: 20px;
+    right: 40px;
     top: 100px;
 }
 
@@ -227,7 +222,7 @@ img{
     text-transform: uppercase;
     transform: rotateZ(90deg);
     position: relative;
-    right: 20px;
+    right: 30px;
     top: 50px;
 }
 
@@ -245,7 +240,7 @@ img{
     text-transform: uppercase;
     transform: rotateZ(90deg);
     position: relative;
-    right: 20px;
+    right: 30px;
     top: 50px;
 }
 
@@ -254,7 +249,7 @@ img{
     text-transform: uppercase;
     transform: rotateZ(90deg);
     position: relative;
-    right: 20px;
+    right: 25px;
     top: 100px;
 }
 
@@ -263,7 +258,7 @@ img{
     text-transform: uppercase;
     transform: rotateZ(90deg);
     position: relative;
-    right: 20px;
+    right: 25px;
     top: 50px;
 }
 
