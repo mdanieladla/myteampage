@@ -51,6 +51,7 @@ html{
 }
 
 .info__container{
+    width: 190px;
     display: flex;
     align-items: flex-start;
 }
@@ -67,12 +68,57 @@ img{
     display: inline;
     transform: rotateZ(90deg);
     position: relative;
-    right: 20px;
+    right: 35px;
     top: 90px;
 }
 
+.position-saba {
+    font-size: .625rem;
+    text-transform: uppercase;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 30px;
+}
+
+.position-shae{
+    font-size: .625rem;
+    text-transform: uppercase;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 80px;
+}
+
+.position-skylah{
+    font-size: .625rem;
+    text-transform: uppercase;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 30px;
+}
+
+.position-griff{
+    font-size: .625rem;
+    text-transform: uppercase;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 80px;
+}
+
+.position-stan{
+    font-size: .625rem;
+    text-transform: uppercase;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 30px;
+}
+
 .bill-img, .shae-img, .griff-img{
-    margin-left: 19px;
+    margin-left: 15px;
     padding-top: 52px;
 }
 
