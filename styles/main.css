@@ -1,0 +1,66 @@
+/*Variables: 
+fonts
+font-family: 'PT Serif', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+:root{
+    --font-ptSerif: 'PT Serif', serif;
+    --font-poppins: 'Poppins', sans-serif;
+}
+
+/*header*/
+.header__container--title{
+    font-family: var(--font-ptSerif);
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 4.3rem 0 2.3rem .75rem;
+}
+
+/*main content*/
+.main__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main__container--title{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 1.125rem;
+    font-family: var(--font-poppins);
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: .75rem;
+}
+
+.main__container--paragraph{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--font-poppins);
+    line-height: 21px;
+    margin: 10px 0 0 12px;
+    padding-bottom: 40px;
+}
+
+.info__container{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    display: inline;
+    transform: rotateZ(90deg);
+}
+
+img{
+    width: 139px;
+    height: 209px;
+}
+
+.bill-img{
+    margin-left: 19px;
+    padding-top: 52px;
+}
