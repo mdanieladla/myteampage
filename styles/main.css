@@ -143,80 +143,119 @@ img{
 .header__container--paragraph{
     padding-left: 6rem;
     margin: 1rem 23rem 0 0;
+    line-height: 27px;
 }
 
 /*main content*/
 .main__container{
+    margin-left: 7rem;
+    margin-right: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.main__container--paragraph{
-    line-height: 27px;
-    margin: .625rem 45rem 0 9rem;
-    /* padding-bottom: 40px; */
-    }
-
-.info__container{
+/* .info__container{
     display: flex;
     align-items: flex-start;
-}
+} */
 
 img{
     width: 238px;
     height: 341px;
 }
 
+.bill-img{
+    margin-left: 0;
+}
+
 .position-bill{
-    font-size: .625rem;
+    font-size: .75rem;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 100px;
+}
+
+.position-saba {
+    font-size: .75rem;
     text-transform: uppercase;
-    margin-bottom: 0;
-    display: inline;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 50px;
+}
+
+.position-shae{
+    font-size: .75rem;
+    text-transform: uppercase;
     transform: rotateZ(90deg);
     position: relative;
     right: 20px;
     top: 90px;
 }
 
-.bill-img, .shae-img, .griff-img{
-    margin-left: 19px;
+.position-skylah{
+    font-size: .75rem;
+    text-transform: uppercase;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 50px;
+}
+
+.position-griff{
+    font-size: .75rem;
+    text-transform: uppercase;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 100px;
+}
+
+.position-stan{
+    font-size: .75rem;
+    text-transform: uppercase;
+    transform: rotateZ(90deg);
+    position: relative;
+    right: 20px;
+    top: 50px;
+}
+
+.shae-img, .griff-img{
+    margin-left: 0;
     padding-top: 52px;
 }
 
-.name{
-    grid-column-start: 1;
-    font-size: .875rem;
+.name, .name2{
+    font-size: 1.125rem;
     font-weight: 600;
     font-family: var(--font-poppins);
-    margin-left: 19px;
-    margin-top: 10px;
+    margin-left: 0;
+    margin-top: 20px;
 }
 
-.name2{
+/* .name2{
     grid-column-start: 1;
-    font-size: .875rem;
-    font-weight: 600;
-    font-family: var(--font-poppins);
-    margin-top: 10px;
-}
+} */
 
 .div-saba{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-top: 6rem;
+    padding-top: 7rem;
 }
 
 .div-skylah{
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 .div-stan{
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
+.div-griff{
+    padding-top: 5rem;
+}
 /*footer*/
 .footer{
     margin-top: 4rem;
+    text-align: center;
 }
 }
