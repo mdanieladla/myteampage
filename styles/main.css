@@ -80,11 +80,27 @@ img{
     margin-top: 10px;
 }
 
+.name2{
+    grid-column-start: 1;
+    font-size: .875rem;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    margin-top: 10px;
+}
+
 .div-saba{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-top: 1rem;
+    padding-top: 6rem;
+}
+
+.div-skylah{
+    padding-top: 5rem;
+}
+
+.div-stan{
+    padding-top: 5rem;
 }
 
 /*footer*/
